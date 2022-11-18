@@ -1,6 +1,14 @@
+#nav-container {
+    background-color: #745d97;
+}
+
 #img-header {
     width: 130px;
     margin-left: 8%;
+}
+
+#linha {
+    max-width: 3px;
 }
 
 #menu {
@@ -11,23 +19,26 @@ main {
     /*display: flex;
     align-items: flex-start;
     justify-content: center;*/
-    padding-top: 15%;
+    padding-top: 6%;
     background-color: #745d97;
     padding-bottom: 13%;
+}
+
+#link-insta {
+    padding-top: 20px;
 }
 
 section {
     /*display: flex;
     align-items: flex-start;
     justify-content: center;*/
-    padding-top: 15%;
-    padding-bottom: 5%;
+    padding-top: 6%;
+    padding-bottom: 7%;
     background-color: #745d97;
 }
 
-footer {
-    /*display: flex;
+/*footer {
+    display: flex;
     align-items: flex-start;
-    justify-content: center;*/
-    background-color: rgb(158, 88, 135);
-}
+    justify-content: center;
+}*/
