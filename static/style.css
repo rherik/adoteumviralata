@@ -1,5 +1,5 @@
 #nav-container {
-    background-color: #745d97;
+    background-color: #7e6a9b;
 }
 
 #img-header {
@@ -8,11 +8,11 @@
 }
 
 #linha {
-    max-width: 3px;
+    max-width: 5px;
 }
 
 #menu {
-    margin: auto;
+    margin: 2%;
 }
 
 main {
@@ -28,6 +28,10 @@ main {
     padding-top: 20px;
 }
 
+#cor_button {
+    background-color: #ec95d2;
+}
+
 section {
     /*display: flex;
     align-items: flex-start;
@@ -36,9 +40,3 @@ section {
     padding-bottom: 7%;
     background-color: #745d97;
 }
-
-/*footer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}*/
