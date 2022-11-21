@@ -1,5 +1,7 @@
 #nav-container {
-    background-color: #7e6a9b;
+    background: rgb(98,189,190);
+    background: linear-gradient(149deg, rgba(98,189,190,1) 8%, rgba(224,186,103,1) 80%);
+
 }
 
 #img-header {
@@ -15,13 +17,15 @@
     margin: 2%;
 }
 
-main {
+main, section {
     /*display: flex;
     align-items: flex-start;
     justify-content: center;*/
     padding-top: 6%;
-    background-color: #745d97;
     padding-bottom: 13%;
+    background: rgb(89,189,190);
+    background: linear-gradient(77deg, rgba(89,189,190,1) 0%, rgba(223,181,92,1) 80%);
+
 }
 
 #link-insta {
@@ -30,13 +34,4 @@ main {
 
 #cor_button {
     background-color: #ec95d2;
-}
-
-section {
-    /*display: flex;
-    align-items: flex-start;
-    justify-content: center;*/
-    padding-top: 6%;
-    padding-bottom: 7%;
-    background-color: #745d97;
 }
