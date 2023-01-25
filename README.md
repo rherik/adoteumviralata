@@ -4,6 +4,6 @@
 <h3>Tarefas</h3>
 <ol>
     <li>Consertar navbar</li>
-    <li>Consertar páginas de login e posts</li>
+    <li>Adicionar opção de cadastrar imagem no banco de dados</li>
     <li>Fazer deploy</li>
 </ol>

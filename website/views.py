@@ -12,12 +12,17 @@ def home():
     return render_template("home.html", user=current_user)
 
 @views.route("/history")
+#@login_required
 def historia():
-    return render_template("historia.html")
+    return render_template("historia.html", user=current_user)
 
-# @views.route("/signup")
-# def sign():
-#     return render_template("signup.html")
+@views.route("/signup")
+def sign():
+    return render_template("signup.html", user=current_user)
+
+@views.route("/login")
+def login():
+    return render_template("login.html", user=current_user)
 
 
 @views.route("/crie", methods=['GET', 'POST'])
