@@ -6,17 +6,17 @@ from . import db
 views = Blueprint("views", __name__)
 
 @views.route("/")
-@views.route("/home")
-#@login_required
+@views.route("/home", methods=['GET', 'POST'])
+@login_required
 def home():
     return render_template("home.html", user=current_user)
 
 @views.route("/history")
-#@login_required
+@login_required
 def historia():
     return render_template("historia.html", user=current_user)
 
-@views.route("/signup")
+@views.route("/signup", methods=['GET', 'POST'])
 def sign():
     return render_template("signup.html", user=current_user)
 
@@ -26,7 +26,7 @@ def login():
 
 
 @views.route("/crie", methods=['GET', 'POST'])
-#@login_required
+@login_required
 def create_post():
     if request.method == "POST":
         text = request.form.get('text')
