@@ -3,6 +3,7 @@
 
 <h3>Tarefas</h3>
 <ol>
+    <li>Consertar erro da função de database</li>
     <li>Consertar navbar</li>
     <li>Adicionar opção de cadastrar imagem no banco de dados</li>
     <li>Fazer deploy</li>
